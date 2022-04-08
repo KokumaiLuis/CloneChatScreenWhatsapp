@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0222212800FDA000049B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222202800FDA000049B19 /* AppDelegate.swift */; };
+		3F0222232800FDA000049B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222222800FDA000049B19 /* SceneDelegate.swift */; };
+		3F0222252800FDA000049B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222242800FDA000049B19 /* ViewController.swift */; };
+		3F0222282800FDA000049B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0222262800FDA000049B19 /* Main.storyboard */; };
+		3F02222A2800FDA300049B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0222292800FDA300049B19 /* Assets.xcassets */; };
+		3F02222D2800FDA300049B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F02222B2800FDA300049B19 /* LaunchScreen.storyboard */; };
+		3F0222382800FDA300049B19 /* cloneChatScreenWhatsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222372800FDA300049B19 /* cloneChatScreenWhatsappTests.swift */; };
+		3F0222422800FDA400049B19 /* cloneChatScreenWhatsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222412800FDA400049B19 /* cloneChatScreenWhatsappUITests.swift */; };
+		3F0222442800FDA400049B19 /* cloneChatScreenWhatsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222432800FDA400049B19 /* cloneChatScreenWhatsappUITestsLaunchTests.swift */; };
+		3F0222522800FE6700049B19 /* customTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222512800FE6700049B19 /* customTableViewHeader.swift */; };
+		3F0222552800FE9400049B19 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222542800FE9400049B19 /* Contacts.swift */; };
+		3F0222582800FEC700049B19 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222572800FEC700049B19 /* ApiService.swift */; };
+		3F02225B2800FEE700049B19 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02225A2800FEE700049B19 /* SecondViewController.swift */; };
+		3F02225E2800FF0500049B19 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02225D2800FF0500049B19 /* CustomTableViewCell.swift */; };
+		3F0222612800FF2A00049B19 /* DefaultColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222602800FF2A00049B19 /* DefaultColors.swift */; };
+		3F0222642800FF8800049B19 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222632800FF8800049B19 /* ChatsViewController.swift */; };
+		3F0222662800FF9900049B19 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222652800FF9900049B19 /* TabBarViewController.swift */; };
+		3F0222682800FFA800049B19 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222672800FFA800049B19 /* StatusViewController.swift */; };
+		3F02226A2800FFB600049B19 /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222692800FFB600049B19 /* CallsViewController.swift */; };
+		3F02226C2800FFC400049B19 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02226B2800FFC400049B19 /* CameraViewController.swift */; };
+		3F02226E2800FFD200049B19 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02226D2800FFD200049B19 /* SettingsViewController.swift */; };
+		3F0222702800FFF400049B19 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02226F2800FFF400049B19 /* UIView+Extension.swift */; };
+		3F0222722801000300049B19 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0222712801000300049B19 /* UIImage+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0222342800FDA300049B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0222152800FDA000049B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02221C2800FDA000049B19;
+			remoteInfo = cloneChatScreenWhatsapp;
+		};
+		3F02223E2800FDA400049B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0222152800FDA000049B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02221C2800FDA000049B19;
+			remoteInfo = cloneChatScreenWhatsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F02221D2800FDA000049B19 /* cloneChatScreenWhatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloneChatScreenWhatsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0222202800FDA000049B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0222222800FDA000049B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F0222242800FDA000049B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0222272800FDA000049B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0222292800FDA300049B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F02222C2800FDA300049B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F02222E2800FDA300049B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0222332800FDA300049B19 /* cloneChatScreenWhatsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloneChatScreenWhatsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0222372800FDA300049B19 /* cloneChatScreenWhatsappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneChatScreenWhatsappTests.swift; sourceTree = "<group>"; };
+		3F02223D2800FDA400049B19 /* cloneChatScreenWhatsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cloneChatScreenWhatsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0222412800FDA400049B19 /* cloneChatScreenWhatsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneChatScreenWhatsappUITests.swift; sourceTree = "<group>"; };
+		3F0222432800FDA400049B19 /* cloneChatScreenWhatsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneChatScreenWhatsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F0222512800FE6700049B19 /* customTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewHeader.swift; sourceTree = "<group>"; };
+		3F0222542800FE9400049B19 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		3F0222572800FEC700049B19 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		3F02225A2800FEE700049B19 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F02225D2800FF0500049B19 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		3F0222602800FF2A00049B19 /* DefaultColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultColors.swift; sourceTree = "<group>"; };
+		3F0222632800FF8800049B19 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		3F0222652800FF9900049B19 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3F0222672800FFA800049B19 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		3F0222692800FFB600049B19 /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
+		3F02226B2800FFC400049B19 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3F02226D2800FFD200049B19 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3F02226F2800FFF400049B19 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3F0222712801000300049B19 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F02221A2800FDA000049B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0222302800FDA300049B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02223A2800FDA400049B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0222142800FDA000049B19 = {
+			isa = PBXGroup;
+			children = (
+				3F02221F2800FDA000049B19 /* cloneChatScreenWhatsapp */,
+				3F0222362800FDA300049B19 /* cloneChatScreenWhatsappTests */,
+				3F0222402800FDA400049B19 /* cloneChatScreenWhatsappUITests */,
+				3F02221E2800FDA000049B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F02221E2800FDA000049B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F02221D2800FDA000049B19 /* cloneChatScreenWhatsapp.app */,
+				3F0222332800FDA300049B19 /* cloneChatScreenWhatsappTests.xctest */,
+				3F02223D2800FDA400049B19 /* cloneChatScreenWhatsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F02221F2800FDA000049B19 /* cloneChatScreenWhatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222622800FF4000049B19 /* Controllers */,
+				3F02225F2800FF2200049B19 /* Colors */,
+				3F02225C2800FEFA00049B19 /* Cell */,
+				3F0222592800FEDB00049B19 /* SecondViewController */,
+				3F0222562800FEBD00049B19 /* ApiService */,
+				3F0222532800FE8E00049B19 /* Model */,
+				3F0222502800FE4F00049B19 /* Header */,
+				3F0222202800FDA000049B19 /* AppDelegate.swift */,
+				3F0222222800FDA000049B19 /* SceneDelegate.swift */,
+				3F0222242800FDA000049B19 /* ViewController.swift */,
+				3F0222262800FDA000049B19 /* Main.storyboard */,
+				3F0222292800FDA300049B19 /* Assets.xcassets */,
+				3F02222B2800FDA300049B19 /* LaunchScreen.storyboard */,
+				3F02222E2800FDA300049B19 /* Info.plist */,
+				3F02226F2800FFF400049B19 /* UIView+Extension.swift */,
+				3F0222712801000300049B19 /* UIImage+Extension.swift */,
+			);
+			path = cloneChatScreenWhatsapp;
+			sourceTree = "<group>";
+		};
+		3F0222362800FDA300049B19 /* cloneChatScreenWhatsappTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222372800FDA300049B19 /* cloneChatScreenWhatsappTests.swift */,
+			);
+			path = cloneChatScreenWhatsappTests;
+			sourceTree = "<group>";
+		};
+		3F0222402800FDA400049B19 /* cloneChatScreenWhatsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222412800FDA400049B19 /* cloneChatScreenWhatsappUITests.swift */,
+				3F0222432800FDA400049B19 /* cloneChatScreenWhatsappUITestsLaunchTests.swift */,
+			);
+			path = cloneChatScreenWhatsappUITests;
+			sourceTree = "<group>";
+		};
+		3F0222502800FE4F00049B19 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222512800FE6700049B19 /* customTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		3F0222532800FE8E00049B19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222542800FE9400049B19 /* Contacts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F0222562800FEBD00049B19 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222572800FEC700049B19 /* ApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		3F0222592800FEDB00049B19 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F02225A2800FEE700049B19 /* SecondViewController.swift */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		3F02225C2800FEFA00049B19 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F02225D2800FF0500049B19 /* CustomTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3F02225F2800FF2200049B19 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222602800FF2A00049B19 /* DefaultColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		3F0222622800FF4000049B19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F0222632800FF8800049B19 /* ChatsViewController.swift */,
+				3F0222652800FF9900049B19 /* TabBarViewController.swift */,
+				3F0222672800FFA800049B19 /* StatusViewController.swift */,
+				3F0222692800FFB600049B19 /* CallsViewController.swift */,
+				3F02226B2800FFC400049B19 /* CameraViewController.swift */,
+				3F02226D2800FFD200049B19 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F02221C2800FDA000049B19 /* cloneChatScreenWhatsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0222472800FDA400049B19 /* Build configuration list for PBXNativeTarget "cloneChatScreenWhatsapp" */;
+			buildPhases = (
+				3F0222192800FDA000049B19 /* Sources */,
+				3F02221A2800FDA000049B19 /* Frameworks */,
+				3F02221B2800FDA000049B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cloneChatScreenWhatsapp;
+			productName = cloneChatScreenWhatsapp;
+			productReference = 3F02221D2800FDA000049B19 /* cloneChatScreenWhatsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0222322800FDA300049B19 /* cloneChatScreenWhatsappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F02224A2800FDA400049B19 /* Build configuration list for PBXNativeTarget "cloneChatScreenWhatsappTests" */;
+			buildPhases = (
+				3F02222F2800FDA300049B19 /* Sources */,
+				3F0222302800FDA300049B19 /* Frameworks */,
+				3F0222312800FDA300049B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0222352800FDA300049B19 /* PBXTargetDependency */,
+			);
+			name = cloneChatScreenWhatsappTests;
+			productName = cloneChatScreenWhatsappTests;
+			productReference = 3F0222332800FDA300049B19 /* cloneChatScreenWhatsappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F02223C2800FDA400049B19 /* cloneChatScreenWhatsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F02224D2800FDA400049B19 /* Build configuration list for PBXNativeTarget "cloneChatScreenWhatsappUITests" */;
+			buildPhases = (
+				3F0222392800FDA400049B19 /* Sources */,
+				3F02223A2800FDA400049B19 /* Frameworks */,
+				3F02223B2800FDA400049B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F02223F2800FDA400049B19 /* PBXTargetDependency */,
+			);
+			name = cloneChatScreenWhatsappUITests;
+			productName = cloneChatScreenWhatsappUITests;
+			productReference = 3F02223D2800FDA400049B19 /* cloneChatScreenWhatsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0222152800FDA000049B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3F02221C2800FDA000049B19 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F0222322800FDA300049B19 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F02221C2800FDA000049B19;
+					};
+					3F02223C2800FDA400049B19 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F02221C2800FDA000049B19;
+					};
+				};
+			};
+			buildConfigurationList = 3F0222182800FDA000049B19 /* Build configuration list for PBXProject "cloneChatScreenWhatsapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0222142800FDA000049B19;
+			productRefGroup = 3F02221E2800FDA000049B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F02221C2800FDA000049B19 /* cloneChatScreenWhatsapp */,
+				3F0222322800FDA300049B19 /* cloneChatScreenWhatsappTests */,
+				3F02223C2800FDA400049B19 /* cloneChatScreenWhatsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F02221B2800FDA000049B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02222D2800FDA300049B19 /* LaunchScreen.storyboard in Resources */,
+				3F02222A2800FDA300049B19 /* Assets.xcassets in Resources */,
+				3F0222282800FDA000049B19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0222312800FDA300049B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02223B2800FDA400049B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0222192800FDA000049B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0222552800FE9400049B19 /* Contacts.swift in Sources */,
+				3F02226A2800FFB600049B19 /* CallsViewController.swift in Sources */,
+				3F0222702800FFF400049B19 /* UIView+Extension.swift in Sources */,
+				3F0222252800FDA000049B19 /* ViewController.swift in Sources */,
+				3F0222662800FF9900049B19 /* TabBarViewController.swift in Sources */,
+				3F0222642800FF8800049B19 /* ChatsViewController.swift in Sources */,
+				3F0222682800FFA800049B19 /* StatusViewController.swift in Sources */,
+				3F02225E2800FF0500049B19 /* CustomTableViewCell.swift in Sources */,
+				3F0222582800FEC700049B19 /* ApiService.swift in Sources */,
+				3F02226E2800FFD200049B19 /* SettingsViewController.swift in Sources */,
+				3F0222522800FE6700049B19 /* customTableViewHeader.swift in Sources */,
+				3F02225B2800FEE700049B19 /* SecondViewController.swift in Sources */,
+				3F0222722801000300049B19 /* UIImage+Extension.swift in Sources */,
+				3F0222612800FF2A00049B19 /* DefaultColors.swift in Sources */,
+				3F02226C2800FFC400049B19 /* CameraViewController.swift in Sources */,
+				3F0222212800FDA000049B19 /* AppDelegate.swift in Sources */,
+				3F0222232800FDA000049B19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02222F2800FDA300049B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0222382800FDA300049B19 /* cloneChatScreenWhatsappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0222392800FDA400049B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0222442800FDA400049B19 /* cloneChatScreenWhatsappUITestsLaunchTests.swift in Sources */,
+				3F0222422800FDA400049B19 /* cloneChatScreenWhatsappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0222352800FDA300049B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F02221C2800FDA000049B19 /* cloneChatScreenWhatsapp */;
+			targetProxy = 3F0222342800FDA300049B19 /* PBXContainerItemProxy */;
+		};
+		3F02223F2800FDA400049B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F02221C2800FDA000049B19 /* cloneChatScreenWhatsapp */;
+			targetProxy = 3F02223E2800FDA400049B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0222262800FDA000049B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0222272800FDA000049B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F02222B2800FDA300049B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F02222C2800FDA300049B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0222452800FDA400049B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0222462800FDA400049B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0222482800FDA400049B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B64C2UKR77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloneChatScreenWhatsapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luiskokumai.cloneChatScreenWhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F0222492800FDA400049B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B64C2UKR77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cloneChatScreenWhatsapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luiskokumai.cloneChatScreenWhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F02224B2800FDA400049B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B64C2UKR77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luiskokumai.cloneChatScreenWhatsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloneChatScreenWhatsapp.app/cloneChatScreenWhatsapp";
+			};
+			name = Debug;
+		};
+		3F02224C2800FDA400049B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B64C2UKR77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luiskokumai.cloneChatScreenWhatsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cloneChatScreenWhatsapp.app/cloneChatScreenWhatsapp";
+			};
+			name = Release;
+		};
+		3F02224E2800FDA400049B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B64C2UKR77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luiskokumai.cloneChatScreenWhatsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cloneChatScreenWhatsapp;
+			};
+			name = Debug;
+		};
+		3F02224F2800FDA400049B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B64C2UKR77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luiskokumai.cloneChatScreenWhatsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cloneChatScreenWhatsapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0222182800FDA000049B19 /* Build configuration list for PBXProject "cloneChatScreenWhatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0222452800FDA400049B19 /* Debug */,
+				3F0222462800FDA400049B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0222472800FDA400049B19 /* Build configuration list for PBXNativeTarget "cloneChatScreenWhatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0222482800FDA400049B19 /* Debug */,
+				3F0222492800FDA400049B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02224A2800FDA400049B19 /* Build configuration list for PBXNativeTarget "cloneChatScreenWhatsappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02224B2800FDA400049B19 /* Debug */,
+				3F02224C2800FDA400049B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02224D2800FDA400049B19 /* Build configuration list for PBXNativeTarget "cloneChatScreenWhatsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02224E2800FDA400049B19 /* Debug */,
+				3F02224F2800FDA400049B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0222152800FDA000049B19 /* Project object */;
+}
