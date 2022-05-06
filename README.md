@@ -1,6 +1,6 @@
 # Chat Screen - Whatsapp Clone
 This is a clone of Chat Screen from Whatsapp. All data is received from an API.
-Please, see: encurtador.com.br/cdrJN
+See [this video](https://encurtador.com.br/cdrJN)
 
 ### Light Mode
 ![Clone Whatsapp (1)](https://user-images.githubusercontent.com/85628972/167045191-e8979613-8971-44a2-a453-d4625d440fcb.png)
